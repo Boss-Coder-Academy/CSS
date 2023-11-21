@@ -535,7 +535,7 @@ h2 {
 
 + **Viewport Meta Tag**
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">: Sets the viewport width to the device's width and initial scale to 1.0. Ensures proper rendering and scaling on different devices. For more information refer HTML Doc.
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Sets the viewport width to the device's width and initial scale to 1.0. Ensures proper rendering and scaling on different devices. For more information refer HTML Doc.
 
 + **Media Queries for Different Screen Sizes**
 
