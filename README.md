@@ -339,6 +339,9 @@ h2 {
 1. **position**: Specifies the positioning method (static, relative, absolute, fixed).
 2. **top**, **bottom**, **left**, **right**: Positioning properties used with non-static positioning.
 
+![Alt text](https://chenhuijing.com/assets/images/posts/css-positioning.jpg)
+
+
 ```bash
  /* CSS Stylesheet */
 
