@@ -1,4 +1,4 @@
-# Assignment: CSS 
+# Assignment: CSS + Tailwind CSS
 
 ## CSS
 
