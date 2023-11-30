@@ -1,5 +1,60 @@
 # CSS/Tailwind CSS
 
+### Table of Contents
+
+**CSS**
+1. **Introduction to CSS**
+2. **Basic CSS Syntax**:
+      + Selectors
+      + Properties and Values
+      + Comments
+3. **Applying CSS**:
+      + Inline CSS  
+      + Internal CSS    
+      + External CSS
+4. **CSS Selectors**:
+      + Element 
+      + ID 
+      + Class
+      + Universal
+      + Attribute
+5. **CSS Properties**
+      + Text Properties
+      + Box Model
+      + Display
+      + Positioning
+      + Flexbox
+      + Grids
+      + Colors and Backgrounds
+      + Fonts and Typography
+      + Transitions and Animation
+6. **Responsive Design and Media Queries**
+7. **Advance Topics**
+      + CSS variables
+      + CSS Grid Layout
+      + CSS Custom Properties
+      + CSS Transformations and Transitions
+      + CSS Animation
+8. **Assignment**
+
+
+**Tailwind**
+  
+1. **Introduction**  
+2. **Getting Started**:
+      + Installation
+      + Configuration 
+3. **Basic Concepts**:
+      + Utility Classes
+      + Responsive Design
+4. **Layouts and Components**
+      + Grid System
+      + Flexbox Utilities
+5. **Customization**
+           
+---            
+
+
 ## CSS
 
 ### 1. Introduction to CSS
