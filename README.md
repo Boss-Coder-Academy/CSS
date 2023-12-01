@@ -1,6 +1,6 @@
 # CSS/Tailwind CSS
 
-### Table of Contents
+### Agenda
 
 **CSS**
 1. **Introduction to CSS**
