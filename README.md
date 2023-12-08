@@ -796,6 +796,11 @@ Example:
 
 ### 7. Assignment:
 
+For the following assignments use the given Figma link:
+
+[Figma Link for assignments](https://shorturl.at/clP68)
+
+
 + **Task 1**: Design a Navigation Bar using HTML and CSS.
 
 Desired Output:
