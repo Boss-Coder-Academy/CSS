@@ -1147,3 +1147,200 @@ module.exports = {
 };
 ```
 
+
+## **Today's Class Code**
+
+```css
+/* Specificity  */
+
+/* div p {
+    color: green;
+}
+
+p {
+    color: red;
+}
+
+#p-tag{
+    color: pink;
+}
+
+.tag#tag{
+    color:aqua;
+} */
+
+
+/* So it means that if your styles are confliction and your are able to one of the styles then it is due to 
+overlapping styles or due to specificity  */
+
+
+/* ------------------------------------------------------------------- */
+
+
+/* Box Model */
+
+/* *{
+    box-sizing: border-box;
+}
+
+#demo2{
+    border: 5px solid black;
+    padding: 10px;
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+} */
+
+
+/* ------------------------------------------------------------------- */
+
+/* CSS Variables */
+
+/* body{
+    --bgcolors: green;
+    background-color: var(--bgcolors); */
+    /* background-color: var(--bgdiv); -- cannot access child's varibales  */
+/* } */
+
+/* #somediv{
+    --bgdiv: red;
+    background-color: var(--bgdiv); */
+    /* background-color: var(--bgcolors);  --- can access the parents variables  */
+/* } */
+
+/* So to deal with this issue we can place both of these in html or :root(Pseudo Selector) */
+
+
+
+/* ------------------------------------------------------------------- */
+
+
+/* Calc */
+
+
+
+/* html{
+    --bgcolors: green;
+    background-color: var(--bgcolors);
+    --standard-font-size: 40px;
+    --h1-font-size : calc(var(--standard-font-size) * 2) */
+    /* background-color: var(--bgdiv); -- cannot access child's varibales  */
+/* } */
+
+/* h2{ */
+    /* font-size: calc(32px + 2rem); */
+    /* font-size: var(--h1-font-size);
+} */
+
+
+/* Just make sure that whenever you are using addition or subs with Calc use space in between */
+
+
+
+/* ------------------------------------------------------------------- */
+
+
+
+
+/* Puseudo Selectors
+
+li {
+    background: black;
+    color: white;
+} 
+    
+li:hover {
+    color:green;
+    background:red;
+}
+    
+#banner { 
+    display: none;
+}
+    
+input:focus + #banner {   
+    display: block;
+} */
+
+/* div :nth-child(1) {
+    background: green;
+    color: white;
+}  */
+
+/* ul li:last-child {
+    background: green;
+    color: white;
+}
+
+ul li:first-child {
+    background: green;
+    color: white;
+} */
+
+/* ------------------------------------------------------------------- */
+
+
+/* Pseudo Elements  */
+/* 
+It only works with tags that have opening and closing tags.  */
+
+/* #banner {
+color: purple;
+background-color: pink;
+} */
+
+/* #banner::before
+{
+content: 'HELLO WORLD';
+display: block;
+width: 200px;
+height: 150px;
+background:red;
+} */
+
+/* #banner:hover:before
+{
+content: 'HELLO WORLD';
+display: block;
+width: 200px;
+height: 150px;
+background:red;
+}
+
+#banner::first-line {
+text-transform: lowercase;
+ } */
+
+/* #banner::first-letter {
+    text-transform: lowercase;
+ } */
+
+
+ /* #banner::after {
+content:'Bye World';
+} */
+
+
+/* ------------------------------------------------------------------- */
+
+
+/* Attr */
+
+
+/* #banner::before
+{
+content: attr(my-data);
+display: block;
+width: 200px;
+height: 150px;
+background:red;
+} */
+
+
+/* ------------------------------------------------------------------- */
+
+
+
+
+```
